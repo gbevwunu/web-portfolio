@@ -126,7 +126,6 @@ section {
     justify-content: space-between;
     max-width: 100%;
     flex-wrap: wrap;
-    gap: 20px;
 }
   
 .about-title {
@@ -138,8 +137,7 @@ section {
 }
 
 .about-text {
-    max-width: calc(60% - 50px);
-    text-align: center;
+    text-align: left;
 }
   
 .about-text p {
@@ -147,13 +145,17 @@ section {
 }
 
 .about-skills {
-    max-width: calc(45% - 50px);
+    max-width: calc(33% - 10px);
     display: flex;
 }
 
+.about-info {
+    display: flex;
+    justify-content: space-between;
+}
 
 .about-picture{
-    max-width: calc(30% - 50px);
+    max-width: calc(33% - 10px);
     height: 300px;
     border-radius: 50%;
     border: 1px solid black;
@@ -163,11 +165,9 @@ section {
 }
   
 
-
 .skill-know, .skill-learn {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 .skill-know ul, .skill-learn ul {
