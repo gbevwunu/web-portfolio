@@ -78,6 +78,7 @@ section {
     z-index: 1;
     height: 800px;
     position: relative;
+    background: hsl(0, 0%, 100%) url('../img/banner.jpg.jpg') center 30%/ cover no-repeat;
 }
   
 .landing-text-main {
